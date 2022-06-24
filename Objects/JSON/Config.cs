@@ -7,5 +7,14 @@
         public string URL { get; set; }
 
         public Dictionary<string, string> Mapping { get; set; }
+
+        public Config()
+        {
+            LogFilePath = String.Empty;
+
+            URL = String.Empty;
+
+            Mapping = new Dictionary<string, string>();
+        }
     }
 }

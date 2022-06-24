@@ -133,7 +133,7 @@ namespace SysLogAlerter
 
             if (config == null)
             {
-                Console.WriteLine("Failing to load config - exiting");
+                Console.WriteLine($"Failing to load config ({configFileName}) - exiting");
 
                 return;
             }
